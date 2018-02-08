@@ -3,8 +3,10 @@
 
 <head>
     <title>Bootstrap Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -26,9 +28,9 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                 <div class="media">
-                    <img class="mr-3" src="images/profile.jpg" alt="Profile image" style="height:200px">
+                    <img class="mr-3" id="profile" src="assets/images/profile.jpg" alt="Profile image">
                     <div class="media-body">
                         <h5 class="mt-0">About Me</h5>
                         <p class="words">
@@ -50,8 +52,32 @@
                     </div>
                 </div>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="card bg-light mb-3" style="max-width: 18rem;">
+                    <div id="connect" class="card-header">Connect With Me</div>
+                    <div id="connect" class="card-body">
+                        <a href="https://github.com/elspetha5" target="_blank">
+                            <img class="social" src="assets/images/GitHub.png" alt="Github">
+                        </a>
+
+                        <a href="http://www.linkedin.com/in/elspeth-anderson-a30576155" target="_blank">
+                            <img class="social" src="assets/images/Linkedin.png" alt="Linkedin">
+                        </a>
+
+                        <a href="https://stackexchange.com/users/12524240/elspeth-anderson" target="_blank">
+                            <img class="social" src="assets/images/Stackoverflow.png" alt="Stackoverflow">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+    <nav id="footer" class="navbar navbar-light bg-light">
+        <span class="navbar-text">
+            © Copyright 2018 Elspeth Anderson
+        </span>
+    </nav>
 
 </body>
 
