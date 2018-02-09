@@ -51,3 +51,8 @@ body {
     bottom: 0;
     min-height: 100%;
 }
+
+.navbar-text {
+    width: 100%;
+    text-align: center;
+}
