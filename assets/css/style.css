@@ -17,6 +17,7 @@ body {
 
 #profile {
     height: 200px;
+    float: left;
 }
 
 .row {
